@@ -1,0 +1,30 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 20px;
+}
+
+h1 {
+ color: #008000;
+ font-size: 36px;
+}
+
+h2 {
+ color: #337ab7;
+ font-size: 24px;
+}
+
+a {
+ color: #337ab7;
+}
+
+nav ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+nav li {
+ margin-bottom: 10px;
+}
+
+	
