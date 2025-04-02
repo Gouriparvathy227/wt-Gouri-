@@ -1,0 +1,44 @@
+body
+{
+        text-align:center;
+}
+.inp
+{
+        width:100px;
+        height:100px;
+}
+.but
+{
+        width:80px;
+        height:40px;
+        font-size:30px;
+        background-color:#28b463;
+        border:none;
+        border-radius:25px;
+}
+.op
+{
+        font-size:30px;
+}
+#res
+{
+        font-size:30px;
+}
+#r
+{
+        font-size:30px;
+}
+#s
+{
+        font-size:30px;
+}
+#e
+{
+        font-size:30px;
+}
+
+*
+{
+        color:#581845;
+        text-align:center;
+}
