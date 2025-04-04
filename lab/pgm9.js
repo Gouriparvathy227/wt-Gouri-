@@ -2,9 +2,10 @@ function validation()
 {
 
         let user=document.getElementById("username").value;
-        if(user.trim()=="")
+	let pass=document.getElementById("pass").value;
+        if(user.trim()==""||pass.trim()=="")
 	{
-                alert("username needed");
+                alert("username and password needed");
         }
 
 
