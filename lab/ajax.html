@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX </title>
+</head>
+<body>
+<input type="button" value="display date" onclick="loadDate()">
+<p> Date:<span id="date"></span></p>
+	<script>
+		function loadDate(){
+		let xhr= new XMLHttpRequest();
+		xhr.open("GET","date.txt",false);
+		
+		xhr.onload= function() {
+		if(xhr.status===200){
+		document.getElementById("date").innerText=xhr.responseText;
+				}
+			};
+			xhr.send();
+		}	
+	</script> 
+</body>
+</html>
