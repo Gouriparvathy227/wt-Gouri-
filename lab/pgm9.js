@@ -5,7 +5,7 @@ function validation()
 	let pass=document.getElementById("pass").value;
         if(user.trim()==""||pass.trim()=="")
 	{
-                alert("username and password needed");
+                alert("username or password needed");
         }
 
 
